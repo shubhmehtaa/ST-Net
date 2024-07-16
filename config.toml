@@ -1,0 +1,22 @@
+[train]
+dataset = 			"/media/sail/Elements/BME_Grad_Project/Joanne/BBB_DL/demo/data/DL_input/ST_pad_InRawLowDCE_GtRaw_KtransTh/OP_NM_CAlow_1_1_kHigh"
+ckpt_path = 		0
+
+gpu = 				2
+batch = 			512
+lr = 				1e-4		
+loss_type = 		"MAE" 		# MSE/MAE/SmoothL1
+Optimizer_type = 	"Adam"  				#SGD/Adam
+max_epoch = 		10
+stop_num = 			5
+train_val_ratio = 	0.8
+
+fold_excel = 		'FoldtTbl_10subjects_5folds.xlsx'
+curr_fold = 		1
+
+Augmentation = 		0
+
+[test]
+dataset = 			"/media/sail/Elements/BME_Grad_Project/Joanne/BBB_DL/demo/data/DL_input/ST_pad_InRawLowDCE_GtRaw_KtransTh/WB_CAlow_1_1_kHigh"
+batch = 			64
+
