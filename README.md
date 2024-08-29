@@ -1,6 +1,6 @@
 # ST-Net
-This is the official code for the IEEE ISBI 2024 paper "DEEP LEARNING ENABLES REDUCED GADOLINIUM DOSE FOR CONTRAST-ENHANCED BLOOD-BRAIN BARRIER OPENING QUANTITATIVE MEASUREMENT" 
-doi: TBA
+This is the official code for the IEEE ISBI 2024 paper "DEEP LEARNING ENABLES REDUCED GADOLINIUM DOSE FOR CONTRAST-ENHANCED BLOOD-BRAIN BARRIER OPENING QUANTITATIVE MEASUREMENT" available at: https://ieeexplore.ieee.org/document/10635626
+doi: 10.1109/ISBI56570.2024.10635626
 
 How to run the model: 
 1. Open a terminal, conda activate your environment (mine is "Schi"), and run "python train.py", the results will be saved in "exp" folder
